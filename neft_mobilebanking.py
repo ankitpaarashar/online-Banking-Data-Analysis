@@ -99,7 +99,7 @@ NOTE:  After analysing data, it is found that State Bank of India is followed by
 
 
 
------------------------------------Mobile Transaction (after scraping data from given url) Analysis Below-------------------------------------------------
+-----------------------------## Mobile Transaction (after scraping data from given url) Analysis Below-------------------------------------------------
 
 #Steps are similar till finding table from web page
 
