@@ -75,11 +75,11 @@ datas['NO. OF INWARD TRANSACTIONS']=pd.to_numeric(datas['NO. OF INWARD TRANSACTI
 datas['INWARD AMOUNT (Rs. Million)']=pd.to_numeric(datas['INWARD AMOUNT (Rs. Million)']) 
 
 
-----------Fews questions--------
+----------##Fews questions--------
 ### sorting banks in terms of maximun no of outward transactions:
 datas.groupby('Banks').sum().sort_values(by='NO. OF OUTWARD TRANSACTIONS', ascending = False).head()
 
-output of above :
+##output of above Query:
 NO. OF OUTWARD TRANSACTIONS	outward AMOUNT (Rs. Million)	NO. OF INWARD TRANSACTIONS	INWARD AMOUNT (Rs. Million)
 Banks				
 HDFC BANK	119513496	12381857.39	64782330	11768396.16
@@ -95,7 +95,7 @@ z5.plot(kind='box', rot= '90')
 ## drwing bar plots for five banks.  
 df.head().plot(kind='bar', x= 'bankname')
 
-NOTE:  After analysing data, it is found that State Bank of India is followed by HDFC bank in terms of most number of transactions, total amount of transactions. There is huge gap after these banks for the bank at 3rd position.
+#NOTE:  After analysing data, it is found that State Bank of India is followed by HDFC bank in terms of most number of transactions, total amount of transactions. There is huge gap after these banks for the bank at 3rd position.
 
 
 
