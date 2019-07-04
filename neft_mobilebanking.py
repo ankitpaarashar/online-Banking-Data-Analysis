@@ -34,7 +34,7 @@ april_table_neft= april_soup.find_all('table', attrs={'width':'95%'})
 
 
 ### now getting data from list of tags instead of tags
-for i in april_table_neft:   #here first we have to find tr from list and then proceed similarly as in first case.
+for i in april_table_neft:   #here first we have to find tr(row values) and use for loop according to the desired output needed.Here we have to first make list containing values for each rows and columns from the given table and then make dataframe from the list.
     tt= i.find_all('tr')
     april_table_neftlist = []
     for k in tt:
